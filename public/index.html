@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compiler</title>
+</head>
+<body style="background-color: grey;">
+    
+        <h1 style="text-align: center;">Compiler</h1>
+        <form action="compilecode" name="myform" method="post" id="myform" >
+            
+
+            <div class = grid-container style="   display: flex; height: 540px; ">
+                
+          
+    <textarea style="margin-left: 25px; margin-right: 25px; border: 5px solid; border-color: darkcyan;" class="code" name="code" id="code" cols="100" rows="13"></textarea>
+           &nbsp;&nbsp;&nbsp;
+   
+    <textarea  style="margin-left: 25px;border: 5px solid; border-color: darkcyan;  margin-right: 25px;"class="input" name="input" id="input"  cols="100" rows="10"></textarea>
+   </div>
+   <br>
+   <span style="margin-left: 17%;">Your Code</span>
+  
+   <span style="margin-left: 48%;">External Input </span>
+
+    
+    <div class="bottom-container" style="margin-left: 540px; margin-top: 35px;">
+        <label for="">Language :</label>
+    <select name="language">
+        <option value="C">C-Lanuage</option>
+        <option value="C++"></option>
+        <option value="Java">Java</option>
+        <option value="Python">Python</option>
+    </select>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    
+    compile with input:
+    <input type="radio" name="inputRadio" id="inputRadio" value="true"/>yes
+    <input type="radio" name="inputRadio" id="inputRadio" value="false"/>No
+    <br/>
+    <input  style="margin-top: 3.5%; margin-left: 17%;" type="submit" value="submit" name="Compile"/>
+        </form>
+    </div>
+   
+</body>
+</html>
